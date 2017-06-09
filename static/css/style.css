@@ -139,7 +139,8 @@ body {
 
 .btn:hover {
 	color: #fff;
-	background: #e64946;
+	background: #9EDBF9;
+
 }
 
 /*** Columns ***/
@@ -292,7 +293,7 @@ blockquote {
 	font-style: italic;
 	color: #666;
 	padding: 5px 0 5px 15px;
-	border-left: 5px solid #e64946;
+	border-left: 5px solid #9EDBF9;
 }
 
 sup {
@@ -333,7 +334,7 @@ a {
 }
 
 a:hover {
-	color: #e64946;
+	color: #9EDBF9;
 }
 
 /*** Lists ***/
@@ -391,7 +392,7 @@ select {
 
 .logo__link {
 	margin: 5px 0;
-	text-transform: uppercase;
+/***	text-transform: lowercase;***/
 }
 
 .logo__title {
@@ -405,7 +406,7 @@ select {
 	font-size: 14px;
 	font-size: 0.875rem;
 	line-height: 1;
-	color: #e64946;
+	color: #ee4144;
 	padding-top: 10px;
 	margin-top: 10px;
 	border-top: 1px solid #e5e5e5;
@@ -417,12 +418,10 @@ select {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
-	text-transform: uppercase;
 }
 
 .menu__toggle {
 	background: #2a2a2a;
-	text-transform: uppercase;
 	padding: 10px 15px;
 	color: #ffffff;
 	text-align: right;
@@ -470,7 +469,7 @@ select {
 }
 
 .opened.menu__list {
-	border-top: 1px solid #e64946;
+	border-top: 1px solid #9EDBF9;
 }
 
 .menu__item {
@@ -480,11 +479,11 @@ select {
 }
 
 .menu__item:hover {
-	background: #e64946;
+	background: #9EDBF9;
 }
 
 .menu__item--active {
-	background: #e64946;
+	background: #9EDBF9;
 }
 
 .menu__item:first-child {
@@ -505,7 +504,7 @@ select {
 	}
 
 	.menu {
-		border-bottom: 5px solid #e64946;
+		border-bottom: 5px solid #77B0E0;
 		min-height: 42px;
 	}
 
@@ -542,7 +541,7 @@ select {
 }
 
 .meta a:hover {
-	color: #e64946;
+	color: #9EDBF9;
 }
 
 .meta span {
@@ -593,11 +592,11 @@ select {
 
 .post__content a {
 	font-weight: 700;
-	color: #e64946;
+	color: #9EDBF9;
 }
 
 .post__content a:hover {
-	color: #e64946;
+	color: #9EDBF9;
 	text-decoration: underline;
 }
 
@@ -620,7 +619,7 @@ select {
 }
 
 .tags__item:hover {
-	background: #e64946;
+	background: #9EDBF9;
 }
 
 .tags__link, .tags__link:hover {
@@ -633,7 +632,7 @@ select {
 	float: left;
 	padding: 8px;
 	margin-right: 6px;
-	background: #e64946;
+	background: #9EDBF9;
 }
 
 .icon-tag {
@@ -724,7 +723,7 @@ select {
 
 .pagination__item:hover, .pagination__item--current {
 	color: #fff;
-	background: #e64946;
+	background: #9EDBF9;
 }
 
 /*** Post Navigation ***/
@@ -854,7 +853,7 @@ input[type=text], input[type=email], input[type=tel], input[type=url] {
 
 input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover,
 input[type=url]:hover, textarea:hover {
-	border: 1px solid #e64946;
+	border: 1px solid #9EDBF9;
 }
 
 input[type=submit] {
@@ -863,7 +862,7 @@ input[type=submit] {
 	font-weight: 700;
 	color: #fff;
 	padding: 10px 15px;
-	background: #e64946;
+	background: #ee4144;
 	cursor: pointer;
 	text-transform: uppercase;
 	-webkit-transition: all 0.1s linear;
@@ -949,7 +948,7 @@ textarea {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid #e64946;
+	border-bottom: 3px solid #9EDBF9;
 }
 
 .widget-social__link {
